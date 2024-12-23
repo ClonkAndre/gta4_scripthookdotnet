@@ -112,6 +112,13 @@ namespace unmanaged {
 					ADDRESS_PEDPOOL				= BaseAddress + 0x18A82AC;
 					ADDRESS_VEHICLEPOOL			= BaseAddress + 0x1619240;
 					break;
+				case GTA::GameVersion::v1080:
+					ADDRESS_BLIPLIST			= BaseAddress + 0x11E83A0;
+					ADDRESS_OBJECTPOOL			= BaseAddress + 0x1252B48;
+					ADDRESS_PEDPOOL				= BaseAddress + 0x18CB03C;
+					ADDRESS_VEHICLEPOOL			= BaseAddress + 0x1252CD0;
+					break;
+
 				case GTA::GameVersion::v1110:
 					ADDRESS_BLIPLIST			= BaseAddress + 0x1122E20;
 					ADDRESS_OBJECTPOOL			= BaseAddress + 0x1471440;
@@ -124,6 +131,13 @@ namespace unmanaged {
 					ADDRESS_PEDPOOL				= BaseAddress + 0x18219EC;
 					ADDRESS_VEHICLEPOOL			= BaseAddress + 0x15C17B0;
 					break;
+				case GTA::GameVersion::v1130:
+					ADDRESS_BLIPLIST			= BaseAddress + 0x1156320;
+					ADDRESS_OBJECTPOOL			= BaseAddress + 0x11C08B8;
+					ADDRESS_PEDPOOL				= BaseAddress + 0x184567C;
+					ADDRESS_VEHICLEPOOL			= BaseAddress + 0x11C0A40;
+					break;
+
 				case GTA::GameVersion::v1259:
 					ADDRESS_BLIPLIST			= BaseAddress + 0x118F6F8;
 					ADDRESS_OBJECTPOOL			= BaseAddress + 0x1632C60;
